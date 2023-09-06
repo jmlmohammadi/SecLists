@@ -1,6 +1,5 @@
 ## lottapixel
 
-Originally reported at https://hackerone.com/reports/390, addressed on paperclip.
 
 A specially crafted JPEG (the original file was named lottapixel.jpg) causes attempts to determine the dimensions of the image to exhaust available memory. From the original report:
 
