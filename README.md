@@ -1,9 +1,21 @@
-![seclists.png](https://danielmiessler.com/images/seclists-long.png "seclists.png")
+![seclists.png](SecLists.png "seclists.png")
 
 ### About SecLists
 web shells, and many more. The goal is to enable a security tester to pull this repository onto a new testing box and have access to every type of list that may be needed.
 
-This project is maintained by [Daniel Miessler](https://danielmiessler.com/), [Jason Haddix](https://twitter.com/Jhaddix), and [g0tmi1k](https://blog.g0tmi1k.com/).
+This project is maintained by [Daniel Miessler](https://danielmiessler.com/), [Jason Haddix](https://twitter.com/Jhaddix), [Ignacio Portal](https://github.com/ItsIgnacioPortal) and [g0tmi1k](https://blog.g0tmi1k.com/).
+
+- - -
+
+<!--- details anchor -->
+
+### Repository details
+
+Size of a complete clone of SecLists is currently at `1.8 GB`
+
+Cloning this repository should take 6-7 minutes at 5MB/s speeds.
+
+<!--- details anchor -->
 
 - - -
 
@@ -36,6 +48,12 @@ git clone https://github.com/danielmiessler/SecLists.git
 apt -y install seclists
 ```
 
+**BlackArch** ([Tool Page](https://blackarch.org/tools.html))
+
+```
+sudo pacman -S seclists
+```
+
 - - -
 
 ### Attribution
@@ -57,6 +75,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 - [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
 - [Cook](https://github.com/giteshnxtlvl/cook)
+- [SamLists](https://github.com/the-xentropy/samlists)
 
 - - -
 
@@ -64,8 +83,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 
 This project is licensed under the [MIT license](LICENSE).
 
-![MIT License](https://danielmiessler.com/images/mitlicense.png)
-
-—
+[![MIT License](https://img.shields.io/badge/license-MIT_License-blue)](https://opensource.org/licenses/MIT)
 
 <sup>NOTE: Downloading this repository is likely to cause a false-positive alarm by your anti-virus or anti-malware software, the filepath should be whitelisted. There is nothing in SecLists that can harm your computer as-is, however it's not recommended to store these files on a server or other important system due to the risk of local file include attacks.</sup>
